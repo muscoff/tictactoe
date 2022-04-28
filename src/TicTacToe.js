@@ -72,6 +72,7 @@ export default function TicTacToe() {
                 let pattern = arr[i]
                 if(board[pattern[0]] === player && board[pattern[1]] === player && board[pattern[2]] === player){
                     winningStatus = true
+                    break
                 }
             }
         }
